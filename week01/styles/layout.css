@@ -36,13 +36,8 @@ h2 {
     width: 1200px
 }
 
-aside {
-    width: 24rem;
-    height: auto;
-    background-color: turquoise;
-    color: black;
-    text-align: center;
-    float: 
+div {
+    display: flex;
 }
 
 footer {
