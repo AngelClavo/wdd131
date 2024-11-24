@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aliceblue;
+    background-color: cadetblue;
+    height: 100px;
+}
+
+header {
+    color: white ;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.navigation a {
+    color: wheat;
+    padding: 0.75rem;
+}
+
+.navigation {
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.modern a {
+    flex: 1 1 100%
+}
+
+main {
+    display: flex;
+    padding: 0.75rem;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    float: inline-end;
+}
+
+h2 {
+    background-color: cadetblue ;
+    color: white;
+    text-align: center;
+}
+
+.card {
+    margin: 1rem;
+    border: 1px solid rgba (0,0,0,.1);
+    padding: 1px;
+    background-color: #ddd;
+    color: #000;
+    height: auto;
+    width: 1175px;
+}
+
+.target {
+    margin: 1rem;
+    border: 1px solid rgba (0,0,0,.1);
+    padding: 1px;
+    background-color: #ddd;
+    color: #000;
+    height: auto;
+    width: 350px;
+}
+
+footer {
+    color: white;
+    background-color: cadetblue;
+    text-align: center;
+    padding: 1rem;
+}
